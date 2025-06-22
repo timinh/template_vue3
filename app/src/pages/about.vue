@@ -7,5 +7,6 @@ const test = ref('This is a test variable');
   <div class="container">
     <h2>This is an about page</h2>
     <h3>{{ test }}</h3>
+    <user />
   </div>
 </template>
